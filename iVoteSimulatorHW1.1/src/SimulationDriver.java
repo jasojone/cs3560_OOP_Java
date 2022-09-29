@@ -49,20 +49,33 @@ public class SimulationDriver {
         // todo get the print statements to properly print, add to class?
         // or change the loop structure to have the question in the outer loop and the students 
         // simulation in the inner loop.
-        for (Student student : students) {
-            //for (Question q : t1.getQuestions()) 
-            for (int j = 0; j > t1.getQuestions().size(); j++){
-                //todo bool method with verbose mode
+        // for (Student student : students) {
+        //     //for (Question q : t1.getQuestions()) 
+        //     for (int j = 0; j > t1.getQuestions().size(); j++){
+        //         //todo bool method with verbose mode
+        //         answer = String.valueOf(rand.nextInt(4));
+        //         //System.out.println("Question: \n" + q.getQuestion());
+        //         //System.out.println("Answers: " + answer);
+        //         //student.getAnswers().add(answer);
+        //         t1.getResults().merge(answer, 1, Integer::sum);
+        //     }
+        //     //System.out.println("Question: \n" + mChoice);
+        // }
+        // System.out.println(t1.getResults().toString()); 
+        // System.out.println(mChoice);
+
+        for (int j = 0; j < t1.getQuestions().size(); j++) {
+            System.out.println();
+            for (Student student : students) {
                 answer = String.valueOf(rand.nextInt(4));
-                //System.out.println("Question: \n" + q.getQuestion());
-                //System.out.println("Answers: " + answer);
-                //student.getAnswers().add(answer);
                 t1.getResults().merge(answer, 1, Integer::sum);
             }
-            //System.out.println("Question: \n" + mChoice);
+            t1.printQuestion();
+            //mChoice.printQuestion();
+            System.out.println(t1.getResults().toString()); 
+            
+            
         }
-        System.out.println(t1.getResults().toString()); 
-        System.out.println(mChoice);
 
     }
 

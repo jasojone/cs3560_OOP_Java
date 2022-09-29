@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import QuestionAndAnswers.Question;
@@ -21,6 +22,10 @@ public class Test {
 
     public ArrayList<Question> getQuestions() {
         return questions;
+    }
+
+    public void printQuestion(){
+        System.out.println(Arrays.toString(questions.toArray()));
     }
     
 }

@@ -26,6 +26,12 @@ public abstract class Question {
     public void setQuestion(String question) {
         this.question = question;
     }
+       /**
+     * @param questions
+     */
+    public void printQuestion(String question) {
+        System.out.println(question);
+    }
 
     public abstract boolean isCorrect(int[] input);
 }
