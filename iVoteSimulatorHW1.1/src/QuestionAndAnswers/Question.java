@@ -17,7 +17,7 @@ public abstract class Question {
         this.potentialAnswers = potentialAnswers;
         this.answers = answers;
     }
-
+    
     /**
      * @return String
      */
@@ -33,32 +33,28 @@ public abstract class Question {
         this.question = question;
     }
 
-    
-    /** 
+    /**
      * @return List<String>
      */
     public List<String> getPotentialAnswers() {
         return potentialAnswers;
     }
 
-    
-    /** 
+    /**
      * @return Map<String, Integer>
      */
     public Map<Integer, Integer> getFrequency() {
         return frequency;
     }
 
-    
-    /** 
+    /**
      * @return int
      */
     public int getCorrectCount() {
         return correctCount;
     }
 
-    
-    /** 
+    /**
      * @param correctCount
      */
     public void setCorrectCount(int correctCount) {

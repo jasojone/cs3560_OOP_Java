@@ -10,13 +10,15 @@ public class Student {
     public Student() {
         this.uniqueId = UUID.randomUUID();
     }
+
     /**
      * @return UUID
      */
     public UUID getUniqueId() {
         return uniqueId;
     }
-    /** 
+
+    /**
      * @return ArrayList<String>
      */
     public ArrayList<QuestionRecord> getRecords() {

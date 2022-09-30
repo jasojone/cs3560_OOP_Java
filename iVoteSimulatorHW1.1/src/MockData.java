@@ -10,7 +10,7 @@ public class MockData {
     public MockData() {
 
     }
-    
+
     /** 
      * @param typeOfQuestion
      * @return Question[]
@@ -23,7 +23,6 @@ public class MockData {
         }
     }
 
-    
     /** 
      * @return Question[]
      */
@@ -31,28 +30,27 @@ public class MockData {
 
         return new SingleChoice[] {
                 new SingleChoice(
-                        "In an array - exactly one number is duplicate how do you find it? ",
+                        "How do you find middle element of a linked list in a single pass?",
                         new ArrayList<String>(
                                 Arrays.asList(
-                                        "Use a Set, if the /insert is false you have a collision",
-                                        "Sort the array then compare the adjacent values in a for loop",
-                                        "Use a nested for loop and compare every index of i to the index of j",
+                                        "Traverse the list until you get to the tail, store each number in an array, use a counter, return the counter/2 ",
+                                        "In a while loop set one counter to next and another to next next when you hit a null the first counter will be the middle",
+                                        "Print the contents to the screen and count them",
                                         "Correct answers not evident")),
-                        new int[] { 0 }),
+                        new int[] { 1 }),
                 new SingleChoice(
-                        "Hi there ",
+                        "How do you find the second lowest number in an integer array? ",
                         new ArrayList<String>(
                                 Arrays.asList(
-                                        "Use ",
-                                        "Sort ",
-                                        "Use ",
+                                        "Sort the array and return the last element ",
+                                        "Print it out and fin id with your eyes",
+                                        "Google the solution and copy paste",
                                         "Correct answers not evident")),
                         new int[] { 0 }),
 
         };
     }
 
-    
     /** 
      * @return MultipleChoice[]
      */
@@ -69,19 +67,24 @@ public class MockData {
                                         "Correct answers not evident")),
                         new int[] { 0, 1, 2 }),
                 new MultipleChoice(
-                        "Hi there ",
+                        "How do you find the depth of a binary tree?",
                         new ArrayList<String>(
                                 Arrays.asList(
-                                        "Use ",
-                                        "Sort ",
-                                        "Use ",
+                                        "Recursively do a DFS",
+                                        "Recursively do a BFS",
+                                        "Traverse the tree in level order traversal starting from root",
                                         "Correct answers not evident")),
-                        new int[] { 0, 1 }),
+                        new int[] { 0, 2 }),
 
         };
     }
 
-    public Integer[] getMockAnswers(int answerCounts, int possibleAnswers){
+    /** 
+     * @param answerCounts
+     * @param possibleAnswers
+     * @return Integer[]
+     */
+    public Integer[] getMockMultipleAnswers(int answerCounts, int possibleAnswers){
         Integer[] result = new Integer[answerCounts];
         var rand = new Random();
         var answers = new ArrayList<Integer>();
@@ -97,30 +100,26 @@ public class MockData {
         }
         return result;
     }
+
+    /** 
+     * @param possibleAnswers
+     * @return Integer[]
+     */
+    public Integer[] getMockSingleAnswer(int possibleAnswers){
+        Integer[] result = new Integer[1];
+        var rand = new Random();
+        result[0] = rand.nextInt(possibleAnswers);
+        return result;
+    }
+    
+    /** 
+     * @return Student[]
+     */
+    public Student[] studentGenerator() {
+        Student[] s = new Student[20];
+        for (int i = 0; i < s.length; i++) {
+            s[i] = new Student();
+        }
+        return s;
+    }
 }
-
-// ArrayList<String> answers = new ArrayList<String>();
-// Collections.addAll(answers,
-// "Use a Set, if the /insert is false you have a collision",
-// "Sort the array then compare the adjacent values in a for loop",
-// "Use a nested for loop and compare every index of i to the index of j",
-// "Correct answers not evident");
-
-// MultipleChoice mChoice = new MultipleChoice(
-// "In an array - exactly one number is duplicate how do you find it? ",
-// answers,
-// new int[]{0,1,2});
-
-// ArrayList<String> answers2 = new ArrayList<String>();
-// Collections.addAll(answers2,
-// "Use a Set, if the /insert is false you have a collision",
-// "Sort the array then compare the adjacent values in a for loop",
-// "Use a nested for loop and compare every index of i to the index of j",
-// "Correct answers not evident");
-
-// MultipleChoice mChoice2 = new MultipleChoice(
-// "In an array - exactly one number is duplicate how do you find it? ",
-// answers,
-// new int[]{0,1,2});
-
-// return new MultipleChoice[]{mChoice, mChoice2};

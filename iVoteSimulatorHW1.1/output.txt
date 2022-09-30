@@ -1,0 +1,294 @@
+PS C:\Users\Jason\OneDrive\Documents\GitHub\cs3560_OOP_Java>  c:; cd 'c:\Users\Jason\OneDrive\Documents\GitHub\cs3560_OOP_Java'; & 'C:\Program Files\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\Jason\AppData\Roaming\Code\User\workspaceStorage\20c297356c94f369edc72e483c0affb8\redhat.java\jdt_ws\cs3560_OOP_Java_b1cf2b67\bin' 'SimulationDriver'
+Single Choice Questions
+
+How do you find middle element of a linked list in a single pass?
+
+0 Traverse the list until you get to the tail, store each number in an array, use a counter, return the counter/2 
+1 In a while loop set one counter to next and another to next next when you hit a null the first counter will be the middle
+2 Print the contents to the screen and count them
+3 Correct answers not evident
+
+{0=7, 1=3, 2=5, 3=5}
+
+How do you find the second lowest number in an integer array? 
+
+0 Sort the array and return the last element 
+1 Print it out and fin id with your eyes
+2 Google the solution and copy paste
+3 Correct answers not evident
+
+{0=3, 1=6, 2=2, 3=9}
+
+The Total Test Frequency
+{0=10, 1=9, 2=7, 3=14}
+ Student Answers Data
+
+Student ID: dd3a7a85-bc24-458b-963c-4b044dbfef39
+Question: How do you find middle element of a linked list in a single pass?
+2 
+Student ID: dd3a7a85-bc24-458b-963c-4b044dbfef39
+Question: How do you find the second lowest number in an integer array? 
+3 
+Student ID: e16d2bea-42e2-4439-9e67-cc63c5bd9ff2
+Question: How do you find middle element of a linked list in a single pass?
+3 
+Student ID: e16d2bea-42e2-4439-9e67-cc63c5bd9ff2
+Question: How do you find the second lowest number in an integer array? 
+3
+Student ID: 9a733d98-d159-4b3a-8330-31f46002ed1f
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 9a733d98-d159-4b3a-8330-31f46002ed1f
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: e8e963d1-52b2-479f-9f44-d0f28571ce81
+Question: How do you find middle element of a linked list in a single pass?
+2
+Student ID: e8e963d1-52b2-479f-9f44-d0f28571ce81
+Question: How do you find the second lowest number in an integer array?
+2
+Student ID: 63d3bd80-afe8-43f1-9d44-2635fa5d00bd
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 63d3bd80-afe8-43f1-9d44-2635fa5d00bd
+Question: How do you find the second lowest number in an integer array?
+0
+Student ID: 87facd8c-b183-46b6-8347-5e0b6b00d15a
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 87facd8c-b183-46b6-8347-5e0b6b00d15a
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: 2b430551-dede-49b3-ba8f-5ab5e6370b0c
+Question: How do you find middle element of a linked list in a single pass?
+2
+Student ID: 2b430551-dede-49b3-ba8f-5ab5e6370b0c
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: f5fc6e00-27f9-4008-9fdc-f427b5e9a45f
+Question: How do you find middle element of a linked list in a single pass?
+3
+Student ID: f5fc6e00-27f9-4008-9fdc-f427b5e9a45f
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: 629c00fc-0537-4ec1-88ed-59af530c06e7
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 629c00fc-0537-4ec1-88ed-59af530c06e7
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: f7240c77-3e4c-4171-892c-2502f0b0a0e2
+Question: How do you find middle element of a linked list in a single pass?
+1
+Student ID: f7240c77-3e4c-4171-892c-2502f0b0a0e2
+Question: How do you find the second lowest number in an integer array?
+2
+Student ID: 0ed7acbc-a3cf-415b-8676-f5821b5b1226
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 0ed7acbc-a3cf-415b-8676-f5821b5b1226
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: 81149a2a-3be6-414c-b8c6-8ac968d97401
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: 81149a2a-3be6-414c-b8c6-8ac968d97401
+Question: How do you find the second lowest number in an integer array?
+0
+Student ID: 7e4eab17-baf4-4cde-b1c6-3c2b63e8195d
+Question: How do you find middle element of a linked list in a single pass?
+1
+Student ID: 7e4eab17-baf4-4cde-b1c6-3c2b63e8195d
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: dc716540-bc21-4f83-9220-e99eac6fcda4
+Question: How do you find middle element of a linked list in a single pass?
+3
+Student ID: dc716540-bc21-4f83-9220-e99eac6fcda4
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: 1ebb7afc-319d-484d-bb3b-5bed4823072c
+Question: How do you find middle element of a linked list in a single pass?
+2
+Student ID: 1ebb7afc-319d-484d-bb3b-5bed4823072c
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: 22c4e3c1-cc15-4e11-8cde-f45fdba21936
+Question: How do you find middle element of a linked list in a single pass?
+3
+Student ID: 22c4e3c1-cc15-4e11-8cde-f45fdba21936
+Question: How do you find the second lowest number in an integer array?
+3
+Student ID: 2127d29a-17ea-4fa3-b63d-1de5245434ae
+Question: How do you find middle element of a linked list in a single pass?
+3
+Student ID: 2127d29a-17ea-4fa3-b63d-1de5245434ae
+Question: How do you find the second lowest number in an integer array?
+0
+Student ID: e715b29c-1823-4997-8437-8b6f02d36e39
+Question: How do you find middle element of a linked list in a single pass?
+2
+Student ID: e715b29c-1823-4997-8437-8b6f02d36e39
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: bcfaa2b4-fd56-462b-9ad4-93a565e1d53b
+Question: How do you find middle element of a linked list in a single pass?
+0
+Student ID: bcfaa2b4-fd56-462b-9ad4-93a565e1d53b
+Question: How do you find the second lowest number in an integer array?
+1
+Student ID: e3b45a2b-43ce-487b-acc2-e1243fb8e76d
+Question: How do you find middle element of a linked list in a single pass?
+1
+Student ID: e3b45a2b-43ce-487b-acc2-e1243fb8e76d
+Question: How do you find the second lowest number in an integer array?
+3
+
+
+PS C:\Users\Jason\OneDrive\Documents\GitHub\cs3560_OOP_Java>  c:; cd 'c:\Users\Jason\OneDrive\Documents\GitHub\cs3560_OOP_Java'; & 'C:\Program Files\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\Jason\AppData\Roaming\Code\User\workspaceStorage\20c297356c94f369edc72e483c0affb8\redhat.java\jdt_ws\cs3560_OOP_Java_b1cf2b67\bin' 'SimulationDriver'
+Multiple Choice Questions
+
+In an array - exactly one number is duplicate how do you find it? 
+
+0 Use a Set, if the /insert is false you have a collision      
+1 Sort the array then compare the adjacent values in a for loop
+2 Use a nested for loop and compare every index of i to the index of j
+3 Correct answers not evident
+
+{0=7, 1=9, 2=8, 3=7}
+
+How do you find the depth of a binary tree?
+
+0 Recursively do a DFS
+1 Recursively do a BFS
+2 Traverse the tree in level order traversal starting from root
+3 Correct answers not evident
+
+{0=11, 1=8, 2=2, 3=7}
+
+The Total Test Frequency
+{0=18, 1=17, 2=10, 3=14}
+ Student Answers Data
+
+Student ID: c85ffb49-a3d9-41d8-b741-3f7343c56bf4
+Question: In an array - exactly one number is duplicate how do you find it?
+1 3 0
+Student ID: c85ffb49-a3d9-41d8-b741-3f7343c56bf4
+Question: How do you find the depth of a binary tree?
+3 0
+Student ID: 64fe0f15-e1e1-4c3b-ad42-1def881275b3
+Question: In an array - exactly one number is duplicate how do you find it?
+3 1
+Student ID: 64fe0f15-e1e1-4c3b-ad42-1def881275b3
+Question: How do you find the depth of a binary tree?
+
+Student ID: 4275d3bc-55e3-4b5f-8d6e-5b9c4aaa1922
+Question: In an array - exactly one number is duplicate how do you find it?
+
+Student ID: 4275d3bc-55e3-4b5f-8d6e-5b9c4aaa1922
+Question: How do you find the depth of a binary tree?
+1 3 0
+Student ID: 325c72fb-245b-4529-b25b-35feaac04d82
+Question: In an array - exactly one number is duplicate how do you find it?
+1
+Student ID: 325c72fb-245b-4529-b25b-35feaac04d82
+Question: How do you find the depth of a binary tree?
+
+Student ID: b95f91ad-1011-4755-9203-500f05357016
+Question: In an array - exactly one number is duplicate how do you find it?
+3 2
+Student ID: b95f91ad-1011-4755-9203-500f05357016
+Question: How do you find the depth of a binary tree?
+0 3
+Student ID: e9fd625c-a6b1-4af7-b636-a84a6110562b
+Question: In an array - exactly one number is duplicate how do you find it?
+3 2
+Student ID: e9fd625c-a6b1-4af7-b636-a84a6110562b
+Question: How do you find the depth of a binary tree?
+
+Student ID: 58588057-af60-4cbf-9fa4-640df1bd857c
+Question: In an array - exactly one number is duplicate how do you find it?
+
+Student ID: 58588057-af60-4cbf-9fa4-640df1bd857c
+Question: How do you find the depth of a binary tree?
+0 1
+Student ID: 98911e3b-46f7-4f2a-9c3b-dcecc5901e4a
+Question: In an array - exactly one number is duplicate how do you find it?
+2 0
+Student ID: 98911e3b-46f7-4f2a-9c3b-dcecc5901e4a
+Question: How do you find the depth of a binary tree?
+0 1
+Student ID: 41475dce-5c43-4f8d-a9fa-13a9c7724e9e
+Question: In an array - exactly one number is duplicate how do you find it?
+1 2
+Student ID: 41475dce-5c43-4f8d-a9fa-13a9c7724e9e
+Question: How do you find the depth of a binary tree?
+0
+Student ID: b9ed7baf-8eb9-4a17-a300-702b5c1fe133
+Question: In an array - exactly one number is duplicate how do you find it?
+1 2
+Student ID: b9ed7baf-8eb9-4a17-a300-702b5c1fe133
+Question: How do you find the depth of a binary tree?
+1 0 3
+Student ID: c4150c63-03a1-4a8d-b889-a9bc9d6f234b
+Question: In an array - exactly one number is duplicate how do you find it?
+0 1
+Student ID: c4150c63-03a1-4a8d-b889-a9bc9d6f234b
+Question: How do you find the depth of a binary tree?
+1
+Student ID: a61b5820-6e2c-41b0-9e01-f7f103af4c4f
+Question: In an array - exactly one number is duplicate how do you find it?
+2 1 0
+Student ID: a61b5820-6e2c-41b0-9e01-f7f103af4c4f
+Question: How do you find the depth of a binary tree?
+0 1 2
+Student ID: c9d8035a-808e-43ed-9dc9-0f8928f1727c
+Question: In an array - exactly one number is duplicate how do you find it?
+3 0
+Student ID: c9d8035a-808e-43ed-9dc9-0f8928f1727c
+Question: How do you find the depth of a binary tree?
+1 0
+Student ID: 96ebc9c1-9da7-49b3-84d9-84d0f7323fe0
+Question: In an array - exactly one number is duplicate how do you find it?
+
+Student ID: 96ebc9c1-9da7-49b3-84d9-84d0f7323fe0
+Question: How do you find the depth of a binary tree?
+3
+Student ID: d4cf02b5-fac4-468a-99a8-25448ac7f758
+Question: In an array - exactly one number is duplicate how do you find it?
+3 0 1
+Student ID: d4cf02b5-fac4-468a-99a8-25448ac7f758
+Question: How do you find the depth of a binary tree?
+
+Student ID: 0d159a54-4ffe-4772-96f7-015788ca54da
+Question: In an array - exactly one number is duplicate how do you find it?
+
+Student ID: 0d159a54-4ffe-4772-96f7-015788ca54da
+Question: How do you find the depth of a binary tree?
+
+Student ID: cb81fc84-f299-43d2-a49b-70951ad4ea5d
+Question: In an array - exactly one number is duplicate how do you find it?
+1
+Student ID: cb81fc84-f299-43d2-a49b-70951ad4ea5d
+Question: How do you find the depth of a binary tree?
+3 0
+Student ID: acbd67f0-5f4e-43c6-ae71-0321aaad0226
+Question: In an array - exactly one number is duplicate how do you find it?
+0 2
+Student ID: acbd67f0-5f4e-43c6-ae71-0321aaad0226
+Question: How do you find the depth of a binary tree?
+3 0
+Student ID: d2386144-0663-48fa-b278-c379431816b6
+Question: In an array - exactly one number is duplicate how do you find it?
+
+Student ID: d2386144-0663-48fa-b278-c379431816b6
+Question: How do you find the depth of a binary tree?
+
+Student ID: 44504958-38aa-4c1e-8702-d81058ed2fbc
+Question: In an array - exactly one number is duplicate how do you find it?
+2 3
+Student ID: 44504958-38aa-4c1e-8702-d81058ed2fbc
+Question: How do you find the depth of a binary tree?
+1 2
+
+

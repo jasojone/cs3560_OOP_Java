@@ -9,14 +9,25 @@ public class QuestionRecord {
         this.query = query;
         this.answers = answers;
     }
+
+    /**
+     * @return Question
+     */
     public Question getQuery() {
         return query;
     }
 
+    /**
+     * @return Integer[]
+     */
     public Integer[] getAnswers() {
         return answers;
     }
-    public String toString(){
+
+    /**
+     * @return String
+     */
+    public String toString() {
         String result = "";
         result += "Question: " + query.getQuestion() + "\n";
         for (Integer answer : answers) {
