@@ -10,21 +10,18 @@ public class VotingService {
         this.questions = questions;
     }
 
+    /**
+     * @return Map<String, Integer>
+     */
     public Map<String, Integer> getResults() {
         return results;
     }
 
+    /**
+     * @return Question[]
+     */
     public Question[] getQuestions() {
         return questions;
-    }
-
-    public int correctCount() {
-        int result = 0;
-        for (Question question : questions) {
-            if (question.isCorrect(null))
-                ;
-        }
-        return result;
     }
 
 }

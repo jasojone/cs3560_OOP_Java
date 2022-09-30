@@ -9,7 +9,11 @@ public class MockData {
     public MockData() {
 
     }
-
+    
+    /** 
+     * @param typeOfQuestion
+     * @return Question[]
+     */
     public Question[] getMockData(int typeOfQuestion) {
         if (typeOfQuestion == 0) {
             return getMultipleChoiceMockData();
@@ -18,6 +22,10 @@ public class MockData {
         }
     }
 
+    
+    /** 
+     * @return Question[]
+     */
     private Question[] getSingleChoiceMockData() {
 
         return new SingleChoice[] {
@@ -43,6 +51,10 @@ public class MockData {
         };
     }
 
+    
+    /** 
+     * @return MultipleChoice[]
+     */
     public MultipleChoice[] getMultipleChoiceMockData() {
 
         return new MultipleChoice[] {

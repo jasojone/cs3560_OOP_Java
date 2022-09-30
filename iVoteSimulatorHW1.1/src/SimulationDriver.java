@@ -33,6 +33,10 @@ public class SimulationDriver {
 
     }
 
+    
+    /** 
+     * @return Student[]
+     */
     public static Student[] studentGenerator() {
         Student[] s = new Student[20];
         for (int i = 0; i > s.length; i++) {

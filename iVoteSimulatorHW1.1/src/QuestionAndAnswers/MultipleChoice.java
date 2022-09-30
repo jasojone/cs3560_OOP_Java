@@ -8,16 +8,24 @@ public class MultipleChoice extends Question{
         super(question, potentialAnswers, answers);
     }
 
+    
+    /** 
+     * @param input
+     * @return boolean
+     */
     public boolean isCorrect(int[] input){
         for (int i : input) {
             if(!containsAnswer(i)){
                 return false;
             }
         }
-        //todo logic to check answers that are passed in are correct does the array of input
         return true;
     }
-    //todo create logic to determine correctness of each student, a score or grade.
+    
+    /** 
+     * @param input
+     * @return boolean
+     */
     private boolean containsAnswer(int input){
         boolean result = false;
         for (int i : answers) {
