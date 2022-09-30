@@ -1,5 +1,8 @@
 import QuestionAndAnswers.Question;
-
+/**
+ * The question record object that will create a record of the questions for easy
+ * access to the question and answer data.  
+ */
 public class QuestionRecord {
 
     private Question query;
@@ -25,6 +28,7 @@ public class QuestionRecord {
     }
 
     /**
+     * print syntax cleaner
      * @return String
      */
     public String toString() {

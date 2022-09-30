@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.UUID;
-
+/**
+ * object for the students information, the unique id and the students answer records
+ */
 public class Student {
-    // member variables of the class
     private final UUID uniqueId;
     private ArrayList<QuestionRecord> records = new ArrayList<QuestionRecord>();
 
-    // constructors
     public Student() {
         this.uniqueId = UUID.randomUUID();
     }

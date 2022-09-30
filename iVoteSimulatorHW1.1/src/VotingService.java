@@ -1,7 +1,9 @@
 import java.util.HashMap;
 import java.util.Map;
 import QuestionAndAnswers.Question;
-
+/**
+ * Holds the questions and the results
+ */
 public class VotingService {
     private Question[] questions;
     private Map<Integer, Integer> results = new HashMap<Integer, Integer>();

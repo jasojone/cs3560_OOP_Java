@@ -4,7 +4,11 @@ import java.util.Random;
 import QuestionAndAnswers.MultipleChoice;
 import QuestionAndAnswers.Question;
 import QuestionAndAnswers.SingleChoice;
-
+/**
+ * holds all the mock data, questions potential answers and correct answers
+ * 
+ * 
+ */
 public class MockData {
 
     public MockData() {
@@ -12,6 +16,9 @@ public class MockData {
     }
 
     /** 
+     * The constructor is implicit depending on the program run selection
+     * if we are running a multiple choice question pass a 0
+     * if we are to run a single choice question pass a 1
      * @param typeOfQuestion
      * @return Question[]
      */
@@ -24,6 +31,7 @@ public class MockData {
     }
 
     /** 
+     * single choice questions, only one possible correct answer
      * @return Question[]
      */
     private Question[] getSingleChoiceMockData() {
@@ -52,6 +60,7 @@ public class MockData {
     }
 
     /** 
+     * multiple choice question there are any number of correct answers <= available answers
      * @return MultipleChoice[]
      */
     public MultipleChoice[] getMultipleChoiceMockData() {
@@ -80,6 +89,10 @@ public class MockData {
     }
 
     /** 
+     * This will generate a random number of answers within the correct answer count 
+     * threshold for students with no repetitions. I wanted to simulate a real 
+     * environment which is why sometime a student may not answer.
+     * 
      * @param answerCounts
      * @param possibleAnswers
      * @return Integer[]
@@ -102,6 +115,9 @@ public class MockData {
     }
 
     /** 
+     * This will return a random single choice answer for a student. 
+     * In this simulated environment the questions are mandatory
+     * all students must answer.
      * @param possibleAnswers
      * @return Integer[]
      */
@@ -111,7 +127,7 @@ public class MockData {
         result[0] = rand.nextInt(possibleAnswers);
         return result;
     }
-    
+
     /** 
      * @return Student[]
      */

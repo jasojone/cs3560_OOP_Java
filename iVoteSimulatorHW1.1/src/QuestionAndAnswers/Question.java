@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.HashMap;
-
+/**
+ * Question class is the abstract class that will be the abstract for the question types
+ */
 public abstract class Question {
     protected String question;
     protected List<String> potentialAnswers = new ArrayList<String>();
@@ -17,7 +19,7 @@ public abstract class Question {
         this.potentialAnswers = potentialAnswers;
         this.answers = answers;
     }
-    
+
     /**
      * @return String
      */
