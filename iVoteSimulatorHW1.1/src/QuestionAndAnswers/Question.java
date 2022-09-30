@@ -6,11 +6,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public abstract class Question {
-    // members
     protected String question;
     protected List<String> potentialAnswers = new ArrayList<String>();
     protected int[] answers;
-    private Map<String, Integer> frequency = new HashMap<String, Integer>();
+    private Map<Integer, Integer> frequency = new HashMap<Integer, Integer>();
     private int correctCount = 0;
 
     public Question(String question, List<String> potentialAnswers, int[] answers) {
@@ -46,7 +45,7 @@ public abstract class Question {
     /** 
      * @return Map<String, Integer>
      */
-    public Map<String, Integer> getFrequency() {
+    public Map<Integer, Integer> getFrequency() {
         return frequency;
     }
 

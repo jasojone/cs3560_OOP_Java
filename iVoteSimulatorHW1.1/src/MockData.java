@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import QuestionAndAnswers.MultipleChoice;
 import QuestionAndAnswers.Question;
 import QuestionAndAnswers.SingleChoice;
@@ -80,6 +81,22 @@ public class MockData {
         };
     }
 
+    public Integer[] getMockAnswers(int answerCounts, int possibleAnswers){
+        Integer[] result = new Integer[answerCounts];
+        var rand = new Random();
+        var answers = new ArrayList<Integer>();
+        for(int i = 0; i < possibleAnswers; i++){
+                answers.add(i);
+        }
+
+        for(int i = 0; i < answerCounts; i++){
+                int randAnswers = rand.nextInt(0, answers.size());
+                result[i] = answers.get(randAnswers);
+                answers.remove(randAnswers);
+
+        }
+        return result;
+    }
 }
 
 // ArrayList<String> answers = new ArrayList<String>();

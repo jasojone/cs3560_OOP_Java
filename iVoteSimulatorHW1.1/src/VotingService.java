@@ -4,7 +4,7 @@ import QuestionAndAnswers.Question;
 
 public class VotingService {
     private Question[] questions;
-    private Map<String, Integer> results = new HashMap<String, Integer>();
+    private Map<Integer, Integer> results = new HashMap<Integer, Integer>();
 
     public VotingService(Question[] questions) {
         this.questions = questions;
@@ -13,7 +13,7 @@ public class VotingService {
     /**
      * @return Map<String, Integer>
      */
-    public Map<String, Integer> getResults() {
+    public Map<Integer, Integer> getResults() {
         return results;
     }
 
